@@ -14,7 +14,21 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@workshop/auth/api": ["libs/auth/api/src/index.ts"],
+      "@workshop/auth/domain-logic": ["libs/auth/domain-logic/src/index.ts"],
+      "@workshop/catalog/domain-logic": [
+        "libs/catalog/domain-logic/src/index.ts"
+      ],
+      "@workshop/catalog/feature-listing": [
+        "libs/catalog/feature-listing/src/index.ts"
+      ],
+      "@workshop/catalog/feature-product": [
+        "libs/catalog/feature-product/src/index.ts"
+      ],
+      "@workshop/catalog/ui": ["libs/catalog/ui/src/index.ts"],
+      "@workshop/catalog/utils": ["libs/catalog/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
