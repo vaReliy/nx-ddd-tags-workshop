@@ -5,7 +5,7 @@ A simple NX project structure example of Domain Driven Development.
 The important files:  
 - [.eslintrc.json](./.eslintrc.json) (see `@nx/enforce-module-boundaries` rule);
 - [{domain}/{type}/project.json]() (ex: [catalog/feature-listing/project.json](./libs/catalog/feature-listing/project.json), etc)
-- [CategoryComponent](.libs/catalog/feature-listing/src/lib/category/category.component.ts) (do uncomment commented strings for the demonstration)
+- [CategoryComponent](./libs/catalog/feature-listing/src/lib/category/category.component.ts) (do uncomment commented strings for the demonstration)
 
   
 Project graph (run `nx graph` to generate):  
