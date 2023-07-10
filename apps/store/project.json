@@ -4,7 +4,7 @@
   "projectType": "application",
   "prefix": "workshop",
   "sourceRoot": "apps/store/src",
-  "tags": [],
+  "tags": ["domain:catalog", "type:app"],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",

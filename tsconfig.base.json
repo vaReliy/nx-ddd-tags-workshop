@@ -27,7 +27,8 @@
         "libs/catalog/feature-product/src/index.ts"
       ],
       "@workshop/catalog/ui": ["libs/catalog/ui/src/index.ts"],
-      "@workshop/catalog/utils": ["libs/catalog/utils/src/index.ts"]
+      "@workshop/catalog/utils": ["libs/catalog/utils/src/index.ts"],
+      "@workshop/shared/environment": ["libs/shared/environment/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

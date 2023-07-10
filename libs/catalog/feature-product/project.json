@@ -3,7 +3,7 @@
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/catalog/feature-product/src",
   "prefix": "workshop",
-  "tags": [],
+  "tags": ["domain:catalog", "type:feature"],
   "projectType": "library",
   "targets": {
     "test": {

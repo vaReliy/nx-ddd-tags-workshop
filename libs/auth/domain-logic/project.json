@@ -3,7 +3,7 @@
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/auth/domain-logic/src",
   "prefix": "workshop",
-  "tags": [],
+  "tags": ["domain:auth", "type:domain-logic"],
   "projectType": "library",
   "targets": {
     "test": {

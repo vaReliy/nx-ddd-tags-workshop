@@ -2,7 +2,14 @@
   "name": "@workshop/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "lint:apps": "nx run store:lint && nx run admin:lint",
+    "lint:lib:auth": "nx run auth-api:lint && nx run auth-domain-logic:lint",
+    "lint:lib:catalog": "nx run catalog-domain-logic:lint && nx run catalog-feature-listing:lint && nx run catalog-feature-product:lint && nx run catalog-ui:lint && nx run catalog-utils:lint",
+    "lint:lib:shared": "nx run shared-environment:lint",
+    "lint:libs": "npm run lint:lib:auth && npm run lint:lib:catalog && npm run lint:lib:shared",
+    "lint:all": "npm run lint:apps && npm run lint:libs"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~16.1.0",

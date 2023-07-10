@@ -1,16 +1,16 @@
 {
-  "name": "catalog-utils",
+  "name": "shared-environment",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/catalog/utils/src",
+  "sourceRoot": "libs/shared/environment/src",
   "prefix": "workshop",
-  "tags": ["domain:catalog", "type:util"],
+  "tags": ["domain:shared", "type:util"],
   "projectType": "library",
   "targets": {
     "test": {
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "libs/catalog/utils/jest.config.ts",
+        "jestConfig": "libs/shared/environment/jest.config.ts",
         "passWithNoTests": true
       },
       "configurations": {
@@ -25,8 +25,8 @@
       "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": [
-          "libs/catalog/utils/**/*.ts",
-          "libs/catalog/utils/**/*.html"
+          "libs/shared/environment/**/*.ts",
+          "libs/shared/environment/**/*.html"
         ]
       }
     }
